@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>西安</title>
+	<link rel="stylesheet" href="Xi'an.css">
+</head>
+
+<script type="text/javascript">
+function addborder()
+{
+    //document.getElementById("compman").border="2";
+    var photos = document.getElementsByTagName("img");
+    for(var i=0;i<photos.length;i++)
+    {
+        photos[i].border="2";
+        photos[i].style.borderColor="#ffffff";
+    }
+    document.getElementById("zero").border="0";
+}
+function closeborder() 
+{
+    var photos = document.getElementsByTagName("img");
+    for(var i=0;i<photos.length;i++)
+    {
+        photos[i].border="0";
+    }
+}
+</script>
+
+<body>
+    <!-- 导航部分 -->
+    <div id="nav">
+        <p>
+        <a href="index.html">index</a>&nbsp;&nbsp;&nbsp;
+        <a href="introduction.html">introduction</a>&nbsp;&nbsp;&nbsp;
+        <a href="Xi'an.html">Xi'an</a>&nbsp;&nbsp;&nbsp;
+        <a href="Dalian.html">Dalian</a>&nbsp;&nbsp;&nbsp;
+        </p>
+    </div>
+    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" color=#ffffff>
+
+    <!-- banner部分 -->
+	<div id="banner">
+	<img id="zero" src="images/banner.jpg">
+	</div>
+
+	<!-- 第一部分 -->
+	<div id="content1">
+	<div id="left1">
+	<image id="one" src="images/Xian1.jpg" width="100%" height="100%">
+	</div>
+	<div id="right1">
+	<p>
+	旅行中重要的是在你身旁的人<br>
+	我可以在聚会上跟合不来的人虚伪地谈笑，却做不到在旅行中和ta一起<br>
+	小的时候一起旅行的人是父母，成年后一起旅行的是朋友，成家后一起旅行的是我们自己的伴侣和孩子，每一段旅行都在记录我们的成长轨迹，让我们以后可以再次重温。<br>
+	</p>
+	</div>
+	</div>
+
+    <!-- 第二部分 -->
+	<div id="content2">
+	<div id="left2">
+    <p>
+	大雁塔广场的两侧树<br>
+	一个很浪漫的地方，我没有去看它叫什么名字，我自己叫它姻缘树<br>
+	虽然那里很多人（情侣），似乎好像并不适合拍照，但是我自己觉得拍出来的照片更有一种烟火气息，让人觉得很有安全感<br>
+	</p> 
+	</div>
+	<div id="right2">
+	<image id="two" src="images/Xian2.jpg" width="100%" height="100%">
+	</div>
+	</div>
+
+	<!-- 第三部分 -->
+	<div id="content3">
+	<div id="left3">
+	<image id="three" src="images/Xian3.jpg" width="100%" height="100%">
+	</div>
+	<div id="right3">
+	<p>
+	西安城墙<br>
+	我还记得那天的夕阳特别美，这是我们在西安的最后一站<br>
+	西安城墙真的是一个让人非常放松的景点了，前提是天气好<br>
+	时间充足的情况下可以租自行车绕着城墙一周，吹着风，看着景<br>
+	</p>
+	</div>
+	</div>
+
+	<!-- 第四部分 -->
+	<div id="content4">
+	<div id="left4">
+    <p>
+	陕拾叁<br>
+	大狗学姐推荐的冰淇淋店，西安好像只有两家，一家在回民街，一家在钟楼<br>
+	真的很好吃，点了一个抹茶一个红茶，其实点的时候我们纠结了好久，口味实在太丰富了，还有限定的油泼辣子味<br>
+	</p> 
+	</div>
+	<div id="right4">
+	<image id="four" src="images/Xian4.jpg" width="100%" height="100%">
+	</div>
+	</div>
+
+	<!-- 第五部分 -->
+	<div id="content5">
+	<div id="left5">
+	<image id="five" src="images/Xian5.jpg" width="100%" height="100%">
+	</div>
+	<div id="right5">
+	<p id="p1">·黄桂柿子饼<br></p>
+	<p id="p2">·贾三灌汤包<br></p>
+	<p id="p3">·爆辣牛筋丸<br></p>
+	<p id="p4">·卡通镜糕<br></p>
+	</div>
+	</div>
+
+	<!-- 第六部分 -->
+	<div id="content6">
+	<div id="left6">
+    <p id="p1">·魏家凉皮<br></p>
+	<p id="p2">·羊肉泡馍<br></p>
+	<p id="p3">·潼关肉夹馍<br></p>
+	</div>
+	<div id="right6">
+	<image  id="six" src="images/Xian6.jpg" width="100%" height="100%">
+	</div>
+	</div>
+
+	<!-- JS功能之添加边框 -->
+	<div id="JS">
+	<p>
+	JS小功能：给图片加上相框，制作旅行相册<br>
+	<input type="button" value="Add border" onclick="addborder()">
+    <input type="button" value="Cancel border" onclick="closeborder()">
+    </p>
+	</div>
+
+	<!-- 第七部分 -->
+	<div id="footer">
+	<p>版权归舒肤佳佳所有（西安行感谢大狗学姐的完美攻略！）</p>
+	</div>
+
+</body>
+</html>

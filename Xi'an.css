@@ -1,0 +1,283 @@
+body{
+	/*background-color:#8bb7d2;*/
+	background-image: url(images/Xian_bg.jpg);
+	background-size:cover;
+}
+
+/*导航部分*/
+#nav
+{
+	text-align: right;
+}
+
+#nav p
+{
+	font-family: Comic Sans MS;
+	font-size:30px;
+	color:#ffffff;
+}
+
+#nav a
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+
+/*banner部分*/
+#banner{
+	width:900px;
+	height:250px;
+	margin-left:200px;
+	margin-top:30px;
+}
+
+/*第一部分*/
+#content1{
+	width:900px;
+	height:300px;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#left1
+{
+	float:left;
+	width:450px;
+	height:300px;
+}
+
+#right1
+{
+	float:left;
+	width:440px;
+	height:300px;
+	margin-left:10px;
+	display:table;
+}
+
+#right1 p
+{
+	display:table-cell;
+	vertical-align: middle;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:24px;
+}
+
+
+/*第二部分*/
+#content2{
+	width:900px;
+	height:300px;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#left2
+{
+	float:left;
+	width:440px;
+	height:300px;
+	display:table;
+}
+
+#left2 p
+{
+	display:table-cell;
+	vertical-align: middle;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:24px;
+}
+
+#right2
+{
+	float:left;
+	width:450px;
+	height:300px;
+	margin-left:10px;
+}
+
+/*第三部分*/
+#content3
+{
+	width:900px;
+	height:300px;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#left3
+{
+	float:left;
+	width:450px;
+	height:300px;
+}
+
+#right3
+{
+	float:left;
+	width:440px;
+	height:300px;
+	margin-left:10px;
+	display:table;
+}
+
+#right3 p
+{
+	display:table-cell;
+	vertical-align: middle;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:24px;
+}
+
+/*第四部分*/
+#content4
+{
+	width:900px;
+	height:300px;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#left4
+{
+	float:left;
+	width:440px;
+	height:300px;
+	display:table;
+}
+
+#left4 p
+{
+	display:table-cell;
+	vertical-align: middle;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:24px;
+}
+
+#right4
+{
+	float:left;
+	width:450px;
+	height:300px;
+	margin-left:10px;
+}
+
+/*第五部分*/
+#content5
+{
+	width:900px;
+	height:300px;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#left5
+{
+	float:left;
+	width:800px;
+	height:300px;
+}
+
+#right5
+{
+	float:left;
+	width:90px;
+	height:300px;
+	margin-left:10px;
+	display:table;
+}
+
+#right5 p
+{
+	width:22px;
+	display:table-cell;
+	vertical-align: middle;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:22px;
+	/*writing-mode:vertical-lr;*/
+	word-wrap: break-word; 
+}
+
+/*第六部分*/
+#content6
+{
+	width:900px;
+	height:300px;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#left6
+{
+	float:left;
+	width:90px;
+	height:300px;
+	display:table;
+}
+
+#left6 p
+{
+	width:24px;
+	display:table-cell;
+	vertical-align: middle;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:24px;
+	word-wrap: break-word; 
+}
+
+#right6
+{
+	float:left;
+	width:800px;
+	height:300px;
+	margin-left:10px;
+}
+
+/*JS部分*/
+#JS
+{
+	width:900px;
+	height:50px;
+	margin-left:200px;
+}
+
+#JS p
+{
+	text-align:center;
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:20px;
+	line-height:30px;
+}
+
+#JS input
+{
+	font-family:Comic Sans MS;
+	color:#000000;
+}
+
+/*第七部分*/
+#footer
+{
+	width:900px;
+	height:30px;
+	/*background-color:#6191c1;*/
+	margin-left:200px;
+	margin-top:10px;
+}
+
+#footer p
+{
+	color:#ffffff;
+	font-family:"楷体";
+	font-size:20px;
+	line-height: 30px;
+	text-align:center;
+}

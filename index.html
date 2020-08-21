@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel Diary</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<script>
+function displayDate(){
+	document.getElementById("demo").innerHTML=Date();
+}
+</script>
+
+<body>
+    <!-- 导航部分 -->
+    <div id="nav">
+        <p id="part_a">
+        <a href="index.html">index</a>&nbsp;&nbsp;&nbsp;
+        <a href="introduction.html">introduction</a>&nbsp;&nbsp;&nbsp;
+        <a href="Xi'an.html">Xi'an</a>&nbsp;&nbsp;&nbsp;
+        <a href="Dalian.html">Dalian</a>&nbsp;&nbsp;&nbsp;
+        </p>
+        <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" color=#ffffff>
+        <!-- JS显示日期 -->
+        <p id="demo">Date&nbsp;&nbsp;&nbsp;</p>
+        <button type="button" onclick="displayDate()">Display Date</button>&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <!-- logo部分 -->
+	<div id="logo">
+	    <image src="images/logo.gif">
+	    <p id="p1">
+	    GET READY WITH XUEJIACHEN!
+	    </p>
+	    <p id="p2">
+	    旅行，就是抓住生活的每一朵浪花<br>
+	    然后在回忆里串成最美的记忆<br>
+	    照耀日后荒芜的岁月
+	    </p>
+	</div>
+
+</body>
+</html>

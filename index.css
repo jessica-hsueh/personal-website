@@ -1,0 +1,59 @@
+body{
+	background-image: url(images/background.jpg);
+	background-size:cover;
+}
+
+#nav
+{
+	text-align: right;
+}
+
+#part_a
+{
+	font-family: Comic Sans MS;
+	font-size:30px;
+	color:#ffffff;
+}
+
+#demo
+{
+	font-family: Comic Sans MS;
+	font-size:20px;
+	color:#ffffff;
+}
+
+#nav button
+{
+	font-family: Comic Sans MS;
+	color:#000000;
+}
+
+#nav a
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#logo
+{
+	width:900px;
+	margin-left:200px;
+	margin-top:50px;
+	text-align:center;
+}
+
+#p1
+{
+	margin-top:0;
+	font-family: Comic Sans MS;
+	font-size:50px;
+	color:#ffffff;
+	line-height:0px;
+}
+
+#p2
+{
+	font-family:"苏新诗柳楷简";
+	font-size:30px;
+	color:#ffffff;
+}
